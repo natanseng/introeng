@@ -13,5 +13,10 @@ Tarefas à fazer:
 
 2. Criar um Menu Principal, onde centralizará as três opções (graphic, learn_audio e convert).
 
+
+URGENTE: 
+
 3. Indexar arquivos
+
+4. Oferecer a opção do usuário fornecer o caminho do áudio.wav a ser analisado.
 
