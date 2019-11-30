@@ -18,5 +18,5 @@ URGENTE:
 
 3. Indexar arquivos
 
-4. Oferecer a opção do usuário fornecer o caminho do áudio.wav a ser analisado.
+4. Oferecer a opção do usuário fornecer o caminho do áudio.wav a ser analisado. (DONE)
 
