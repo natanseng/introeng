@@ -13,3 +13,5 @@ Tarefas à fazer:
 
 2. Criar um Menu Principal, onde centralizará as três opções (graphic, learn_audio e convert).
 
+3. Indexar arquivos
+
