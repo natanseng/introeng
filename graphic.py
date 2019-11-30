@@ -5,9 +5,11 @@ import numpy as np
 import matplotlib.pyplot as plt 
 import soundfile as sf 
 
+caminho = input("Insira o caminho do arquivo: ")
+
 #Lendo amostra
 
-signal, samplerate = sf.read('audio.wav')
+signal, samplerate = sf.read(caminho)
 
 #Definindo como será o gráfico
 
