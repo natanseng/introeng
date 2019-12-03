@@ -9,7 +9,7 @@ Precisamos criar um Menu Principal, onde o usuário digita um número para exibi
 
 Tarefas à fazer:
 
-1. Encontrar maneira de de converter stereo para Mono
+1. Encontrar maneira de de converter stereo para Mono (DONE)
 
 2. Criar um Menu Principal, onde centralizará as três opções (graphic, learn_audio e convert).
 
