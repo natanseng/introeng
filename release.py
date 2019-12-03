@@ -104,6 +104,6 @@ renomeia_wav()
 plota_grafico()
 learn_audio()
 
-# Agradecimentos:
+# Agradecimentos: #
 
-O Diretor de Desenvolvimento da TITAN - Computação Inteligente.
+# O Diretor de Desenvolvimento da TITAN - Computação Inteligente, João Paulo Rios. #
