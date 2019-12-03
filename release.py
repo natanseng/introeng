@@ -1,6 +1,8 @@
 # Introdução à Engenharia de Computação - Profº Antônio - UFBA - 2019.2 #
 # Trabalho realizado por Natan Santos e Pedro Viana. #
 
+# Elaborado utilizando o Git e integrado com o GitHub, plataforma online de compartilhamento de códigos. #
+
 import matplotlib.pyplot as plt
 import soundfile as sf
 import numpy as np
