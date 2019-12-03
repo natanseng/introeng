@@ -1,3 +1,6 @@
+# Introdução à Engenharia de Computação - Profº Antônio - UFBA - 2019.2 #
+# Trabalho realizado por Natan Santos e Pedro Viana. #
+
 import matplotlib.pyplot as plt
 import soundfile as sf
 import numpy as np
@@ -10,7 +13,7 @@ from tkinter.filedialog import askdirectory
 musicas_mp3 = list()
 musicas_wav = list()
 
-## Criado por Neitanzinho e PTDrinho com o apoio de @PorraDEV ##
+# Buscando Áudio
 
 def busca_wav():
     print('Qual diretório deseja buscar os arquivos .WAV? ')
@@ -21,6 +24,8 @@ def busca_wav():
         elif file.endswith(".mp3"):
             musicas_mp3.append(str(file))
     return diretorio_raiz
+
+# Converter para .wav
 
 def converte_para_wav():
     for musica in musicas_mp3:
@@ -35,9 +40,13 @@ def renomeia_wav():
         os.rename(diretorio_raiz + "/" + recupera_nome_musica(musica), diretorio_raiz + "/" + str(cont)+".wav")
         cont = cont + 1
 
+#Pegando nome da Música
+
 def recupera_nome_musica(musica):
     partes = musica.split('\\')
     return partes[len(partes) - 1]
+
+# Stereo to mono
 
 def downmixing():
   	for musica in musicas_wav:
@@ -46,6 +55,8 @@ def downmixing():
               arquivo_mono = AudioSegment.from_wav(diretorio_raiz + "/" + musica, 'r')
               arquivo_mono = arquivo_mono.set_channels(1)
               arquivo_mono.export(diretorio_raiz + "/" + musica, format="wav")
+
+# Gráfico
 
 def plota_grafico():
     i = input("Escolha o número da música que você quer: ")
@@ -63,6 +74,8 @@ def plota_grafico():
     plt.title("Gráfico do arquivo " + str(i) + ".wav:")
     plt.plot(time,signal)
     plt.show()
+
+# Feature
 
 def learn_audio():
     # Definindo input do arquivo
@@ -90,4 +103,7 @@ converte_para_wav()
 renomeia_wav()
 plota_grafico()
 learn_audio()
-      
+
+# Agradecimentos:
+
+O Diretor de Desenvolvimento da TITAN - Computação Inteligente.
