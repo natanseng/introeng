@@ -7,16 +7,4 @@ Precisamos criar um Menu Principal, onde o usuário digita um número para exibi
 * Cria uma branch sempre que for alterar alguma coisa nos códigos já estáveis.
 
 
-Tarefas à fazer:
-
-1. Encontrar maneira de de converter stereo para Mono (DONE)
-
-2. Criar um Menu Principal, onde centralizará as três opções (graphic, learn_audio e convert).
-
-
-URGENTE: 
-
-3. Indexar arquivos
-
-4. Oferecer a opção do usuário fornecer o caminho do áudio.wav a ser analisado. (DONE)
-
+Trabalho realizado por Natan Santos e Pedro Magalhães, estudantes de Engenharia de Computação da Universidade Federal da Bahia.
